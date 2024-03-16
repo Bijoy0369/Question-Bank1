@@ -4,7 +4,12 @@ int main(){
     {
         for(int c=1;c<=r;c++)
         {
-            printf("%d ",c);
+            printf("%d ",r);   
+            /*1
+              22
+              333
+              4444
+              55555*/
         }
         printf("\n");
     }

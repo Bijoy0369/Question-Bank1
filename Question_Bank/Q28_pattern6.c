@@ -1,15 +1,27 @@
 #include<stdio.h>
-int main(){
-    for(int r=1;r<=5;r++)
+#include<string.h>
+
+ int main()
+{   
+    char str[]="BIJOY";
+    int len;
+    len=strlen(str);
+
+    for(int r=0;r<len;r++)  //rows
     {
-        for(int c=1;c<=5;c++)
+        for(int c=0;c<=r;c++) //colume
         {
-            if(r==1 || c==r || c==5)
-            printf("%d",c);
-            else
-            printf(" ");
-        }
+            printf("%c ",str[c]);
+            /*
+            B
+            BI
+            BIJ
+            BIJO
+            BIJOY*/
+        }    
         printf("\n");
+        
     }
+
     return 0;
 }

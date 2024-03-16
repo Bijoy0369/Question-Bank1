@@ -1,21 +1,19 @@
 #include<stdio.h>
-#include<string.h>
-
- int main()
-{   
-    char str[]="BIJOY";
-    int len;
-    len=strlen(str);
-
-    for(int r=0;r<len;r++)  //rows
+int main(){
+    int count=1;
+    for(int r=1;r<=5;r++)
     {
-        for(int c=0;c<=r;c++) //colume
+        for(int c=1;c<=r;c++)
         {
-            printf("%c ",str[c]);
-        }    
+            printf("%d ",count++);
+            /*/
+            1
+            2 3
+            4 5 6
+            7 8 9 10
+            11 12 13 14 15 */
+        }
         printf("\n");
-        
     }
-
     return 0;
 }

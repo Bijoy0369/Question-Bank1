@@ -1,10 +1,21 @@
 #include<stdio.h>
 int main(){
-    for(int r=1;r<=5;r++)
+    int n;
+    printf("Enter The Number:- ");
+    scanf("%d",&n);
+
+    for(int r=1;r<=n;r++)
     {
-        for(int c=1;c<=r;c++)
+        for(int c=n;c>=1;c--)
         {
-            printf("%d ",r);
+            printf("* ");
+            /*
+              *****
+              ****
+              ***
+              **
+              *
+              */
         }
         printf("\n");
     }
