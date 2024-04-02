@@ -4,7 +4,7 @@
 
 int main()
 {
-    int mat[4][4],s,r,c,rand();
+    int mat[4][4],r,c,rand();
     srand(time(0));
     for(r=0;r<4;r++)
     {
