@@ -1,9 +1,12 @@
 #include<stdio.h>
 int main()
 {
-    for(int r=1;r<=5;r++)
+    int n;
+    printf("Enter the number:-");
+    scanf("%d",&n);
+    for(int r=1;r<=n;r++)
     {
-        for(int s=5;s>r;s--)
+        for(int s=n;s>r;s--)
         {
             
             printf(" ");
