@@ -1,7 +1,7 @@
 <h1>C Language </h1>
 <h4>C Programming language  </h4> 
 is one of the most influential and widely used programming languages in the history of computing. It is a general-purpose, procedural, and mid-level language that provides low-level access to memory and system resources while maintaining portability and efficiency. Below is a comprehensive overview of C, covering its history, features, syntax, use cases, and more.
-
+<img src="https://static.skillshare.com/uploads/video/thumbnails/b9455fc40a4053509ef0a77b8ddb6a51/original" alt="" width="800px" height="400px">
 
 ---
 
