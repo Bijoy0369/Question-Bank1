@@ -1,22 +1,25 @@
-// C program to show use of 
-// call by Reference
+// C Program to illustrate the use of user-defined function
 #include <stdio.h>
 
-void swap(int *var1, int *var2)
+// Function prototype
+int sum(int, int);
+
+// Function definition
+int sum(int x, int y)
 {
-  int temp = *var1;
-  *var1 = *var2;
-  *var2 = temp;
+	int sum;
+	sum = x + y;
+	return x + y;
 }
 
 // Driver code
 int main()
 {
-  int var1 = 3, var2 = 2;
-  printf("Before swap Value of var1 and var2 is: %d, %d\n",
-          var1, var2);
-  swap(&var1, &var2);
-  printf("After swap Value of var1 and var2 is: %d, %d",
-          var1, var2);
-  return 0;
+	int x = 10, y = 11;
+
+	// Function call
+	int result = sum(x, y);
+	printf("Sum of %d and %d = %d ", x, y, result);
+
+	return 0;
 }
