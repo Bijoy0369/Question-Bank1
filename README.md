@@ -5,7 +5,6 @@ is one of the most influential and widely used programming languages in the hist
 <br> <img src="https://static.skillshare.com/uploads/video/thumbnails/b9455fc40a4053509ef0a77b8ddb6a51/original" alt="" width="800px" height="400px">
 
 ---
-
 ### **1. Overview of C**
 - **Definition**: C is a procedural programming language developed in the early 1970s. It is known for its simplicity, efficiency, and flexibility.
 - **Purpose**: Designed for system programming, C is used to develop operating systems, embedded systems, and applications requiring direct hardware manipulation.
